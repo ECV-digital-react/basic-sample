@@ -39,10 +39,10 @@ class App extends Component {
         <div className="App-intro">
           <Button
             label={'👎'}
-            onClick={() => this.onCounterChange(-1)} />
+            onPress={() => this.onCounterChange(-1)} />
           <Button
             label={'👍'}
-            onClick={() => this.onCounterChange(1)} />
+            onPress={() => this.onCounterChange(1)} />
         </div>
       </div>
     );

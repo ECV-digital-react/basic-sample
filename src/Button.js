@@ -3,12 +3,12 @@ import './Button.css';
 
 class Button extends Component {
   render() {
-    const { label, onClick } = this.props;
+    const { label, onPress } = this.props;
     return (
       <button
         className='Button'
         type='button'
-        onClick={onClick}>
+        onClick={onPress}>
         {label}
       </button>
     );
